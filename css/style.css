@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+    background-color: aliceblue;
+}
+
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+input {
+    padding: 2px 3px;
+    font-family: inherit;
+    cursor: pointer;
+    border: 1px solid #0c7d69;
+    border-radius: 8px;
+}
+
+form {}
+
+input:focus {
+    cursor: text;
+    outline: 0;
+}
+
+.contact__blog1 {
+    display: flex;
+}
+
+.form-control input {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 35px;
+    margin-right: 16px;
+}
+
+.form-control-2 input {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 35px;
+}
+
+.form-control-3 input {
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+    height: 35px;
+    margin-top: 8px;
+}
+
+.form-control-4 {
+    display: flex;
+}
+
+.control-4 {
+    margin-top: 24px;
+}
+
+.control__4 {
+    margin-top: 64px;
+}
+
+.list-1 {
+    padding: 12px;
+    border: 1px solid;
+    margin-top: 16px;
+    margin-right: 16px;
+    width: 230px;
+}
+
+.list-2 {
+    padding: 12px;
+    border: 2px solid;
+    margin-top: 16px;
+    width: 230px;
+}
+
+.form-control-4 {}
+
+textarea {
+    width: 100%;
+    max-width: 520px;
+    resize: vertical;
+}
+
+.control-5 {
+    margin-top: 24px;
+}
+
+.control-6 {
+    margin-top: 40px;
+}
+
+.submit {}
+
+.submit__but {
+    width: 100%;
+    min-width: 520px;
+    height: 59px;
+    margin-top: 40px;
+    background-color: #0C7D69;
+    color: #ffffff;
+}
