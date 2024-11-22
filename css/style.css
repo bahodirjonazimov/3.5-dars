@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-color: aliceblue;
+    background-color: #e0f1e8;
 }
 
 body {
@@ -18,7 +18,13 @@ input {
     border-radius: 8px;
 }
 
-form {}
+form {
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 24px;
+}
 
 input:focus {
     cursor: text;
@@ -64,12 +70,20 @@ input:focus {
     margin-top: 64px;
 }
 
+.address {
+    padding-top: 1000px;
+}
+
 .list-1 {
     padding: 12px;
     border: 1px solid;
     margin-top: 16px;
     margin-right: 16px;
     width: 230px;
+}
+
+.popkorn {
+    border-radius: 8px;
 }
 
 .list-2 {
@@ -87,6 +101,10 @@ textarea {
     resize: vertical;
 }
 
+.area {
+    height: 150px;
+}
+
 .control-5 {
     margin-top: 24px;
 }
@@ -102,6 +120,6 @@ textarea {
     min-width: 520px;
     height: 59px;
     margin-top: 40px;
-    background-color: #0C7D69;
+    background-color: #0c7d69;
     color: #ffffff;
 }
